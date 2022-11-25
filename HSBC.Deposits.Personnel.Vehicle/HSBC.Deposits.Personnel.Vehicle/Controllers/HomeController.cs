@@ -15,7 +15,7 @@ namespace HSBC.Deposits.Personnel.Vehicle.Controllers
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            List<string> arrNames = new List<string>() { "asfsf", "asdfdsf" };
+            List<string> arrNames = new List<string>() { "murali", "krishna" };
             return StatusCode(StatusCodes.Status200OK, arrNames);
         }
 
