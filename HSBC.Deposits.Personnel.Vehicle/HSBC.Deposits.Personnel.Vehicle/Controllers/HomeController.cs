@@ -27,7 +27,7 @@ namespace HSBC.Deposits.Personnel.Vehicle.Controllers
         }
 
         [HttpPost, Route("post-consultant-data")]
-        [SwaggerOperation(Summary = "Get Credentials", Description = "Get Credentials")]
+        [SwaggerOperation(Summary = "Get Credential", Description = "Get Credential")]
         [SwaggerResponse(200, "Successful", typeof(EmployeeDTO))]
         public async Task<IActionResult> PostConsultantData(EmployeeDTO objEmployee)
         {
